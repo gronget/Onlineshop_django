@@ -16,10 +16,10 @@
       {"id":6, "app":"com.get.client"}
     ],
     "free":[
-      {"id":0, "file":0, "city":"Las Vegas","country":"United States","image":"USA","ip":"34.125.86.127","active":"true","signal":"a"},
-        {"id":1, "file":1, "city":"Los Angeles","country":"United States","image":"USA","ip":"35.236.70.231","active":"true","signal":"a"},
-        {"id":2, "file":2, "city":"London","country":"United Kingdom","image":"UK","ip":"35.234.153.166","active":"true","signal":"a"},
-        {"id":3, "file":3, "city":"Sydney","country":"Australia","image":"UK","ip":"35.189.27.37","active":"true","signal":"a"},
-        {"id":4, "file":4, "city":"Frankfurt","country":"Germany","image":"UK","ip":"34.159.159.227","active":"true","signal":"a"}
+      {"id":0, "file":0, "city":"Las Vegas TCP 80","country":"United States","image":"USA","ip":"34.125.86.127","active":"true","signal":"a"},
+        {"id":1, "file":1, "city":"Los Angeles TCP 443","country":"United States","image":"USA","ip":"35.236.70.231","active":"true","signal":"a"},
+        {"id":2, "file":2, "city":"London UDP 443","country":"United Kingdom","image":"UK","ip":"35.234.153.166","active":"true","signal":"a"},
+        {"id":3, "file":3, "city":"Sydney UDP 80","country":"Australia","image":"UK","ip":"35.189.27.37","active":"true","signal":"a"},
+        {"id":4, "file":4, "city":"Frankfurt TCP 80","country":"Germany","image":"UK","ip":"34.159.159.227","active":"true","signal":"a"}
     ]
   }
