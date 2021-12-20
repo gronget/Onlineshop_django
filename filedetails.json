@@ -1,115 +1,114 @@
 {
     "ovpn_file":[
-      {"id":0,"file":"
-        client
-        dev tun
-        proto tcp
-        remote 34.125.86.127 80
-        resolv-retry infinite
-        nobind
-        persist-key
-        persist-tun
-        remote-cert-tls server
-        auth SHA512
-        cipher AES-256-CBC
-        ignore-unknown-option block-outside-dns
-        block-outside-dns
-        verb 3
-        <ca>
-        -----BEGIN CERTIFICATE-----
-        MIIDQjCCAiqgAwIBAgIUd0QKP3nny89B/ANGxPoAluwT/bQwDQYJKoZIhvcNAQEL
-        BQAwEzERMA8GA1UEAwwIQ2hhbmdlTWUwHhcNMjExMjE3MTQ1NDI5WhcNMzExMjE1
-        MTQ1NDI5WjATMREwDwYDVQQDDAhDaGFuZ2VNZTCCASIwDQYJKoZIhvcNAQEBBQAD
-        ggEPADCCAQoCggEBAPX7fIw6PVdF3s7riy0IbEiPLm9iLImsUSeKGXBtTQmVz0ZI
-        v+uFuaTCbC08C3bebfCf5SxmZdfK6Hq/3nbV9cBDzZQCbOm3BX1pj25c2jFmCuNT
-        3z1tjT3qS/kIenmv53QIA12oywHqLvcuKXUtiD3UDdydYrukAv8ajrmytoucDbLL
-        zcYUIAJug0cmXBdK3gF6kUoJN3bi+ItuQREnq5GIdEl2Y5sj4mEx6iuFckebCgT0
-        H3bX3rzPFlHzD75ztcm3S/e250z4itfA3BxHKKZZrlxcngYM0g6bDDAWBxFcWgvR
-        gFcO4Xkf/FcBY9DPpSmTRLISXmv60jRO/2z/4wcCAwEAAaOBjTCBijAdBgNVHQ4E
-        FgQU/DadOOoKAm+z+3RUsrjHn0eWgmgwTgYDVR0jBEcwRYAU/DadOOoKAm+z+3RU
-        srjHn0eWgmihF6QVMBMxETAPBgNVBAMMCENoYW5nZU1lghR3RAo/eefLz0H8A0bE
-        +gCW7BP9tDAMBgNVHRMEBTADAQH/MAsGA1UdDwQEAwIBBjANBgkqhkiG9w0BAQsF
-        AAOCAQEAlM8exAz8/sTNukXcYSjJzbqD8TI1SDUDxoRaP30CYu5hO7n2i0Q8mN8C
-        LPK6S7sdbHxfgpUcTtWRI5EEuWZTtqKPngqbXRR4Kv5XR5QGTXzf5TilHzYKByH/
-        R2wILaPDuvt2Bj5pTc0rOeK0mM5T6agK6xtzhZ6AWsGB1YF3FAfRjoZm11rlTCDO
-        IG7xjHHWUYre4odDieHiHzTAErHHgslZc0+/gjSSNsEmtI7/15FNeq614Pz+MGEG
-        rsAggpQ1nmQgBgUZ/6YoiCB1+sg9nF8oNW1nMf0N8fFWsfPRRq60yP4jydqJJmLI
-        A+GC2VfPmLG/cCSGMkrDJ0+jJQUHyw==
-        -----END CERTIFICATE-----
-        </ca>
-        <cert>
-        -----BEGIN CERTIFICATE-----
-        MIIDVTCCAj2gAwIBAgIRAJhiEdYnEfWWpMOeYtVUan8wDQYJKoZIhvcNAQELBQAw
-        EzERMA8GA1UEAwwIQ2hhbmdlTWUwHhcNMjExMjE3MTQ1NDI5WhcNMzExMjE1MTQ1
-        NDI5WjAXMRUwEwYDVQQDDAxzYW1wbGVjbGllbnQwggEiMA0GCSqGSIb3DQEBAQUA
-        A4IBDwAwggEKAoIBAQC0vXbHpQPUFWdOCZI1AvLjKL6H0Bd4WVQwKpU3Iel5/kWn
-        wOqMJgxLMHEAWuLj9ldqOxK4Z7AZPTDuzuitXIgotYb/5Ut9S/WY4Yopd1s4TTnL
-        BHQFV2lfI3GKmDFBFbe2MNK3WvvfrDE3c93qQRU7OfV9QA1uMrIPcbrLARK3UM8N
-        99ZBx/nMgrnJiZrnY93xGOblaxofisY63Pg5cEke5ETo/6SYZIHGPI3XuH3CAQUB
-        pxc8cuWYWhTHNjE+rcwj4l0tXG4dqmoZ35XUAc1haPoyiGZN1vC+1BNgdzh6D7u4
-        HQhGNZJ5UFVCKxoEokueiOAqkdG8dOshT/moyrC5AgMBAAGjgZ8wgZwwCQYDVR0T
-        BAIwADAdBgNVHQ4EFgQUJfIygFseFsQnGcpW6SQaQSfF/IYwTgYDVR0jBEcwRYAU
-        /DadOOoKAm+z+3RUsrjHn0eWgmihF6QVMBMxETAPBgNVBAMMCENoYW5nZU1lghR3
-        RAo/eefLz0H8A0bE+gCW7BP9tDATBgNVHSUEDDAKBggrBgEFBQcDAjALBgNVHQ8E
-        BAMCB4AwDQYJKoZIhvcNAQELBQADggEBADjQyexwn9pV4OsomQWO/lxJFinwyXQi
-        FnahjvTABMhjhXrpO4GcWaofdlyAjEcHLnPZCN1KW3tPibup4kjoF2KHaKZyQftT
-        KWo/Ko2RXZzuBjxeWOpzsKIxsbyMnTLwOoRKdxb9+v0RxUb1MSl2a0Ccnqy0POBS
-        TfmiQDoYGvxTYyN33nQ9Mv5/wiwchKaCsSpiPyfB1hpeczggyUGIu+QEF9FQQmUZ
-        MZ77MEMxjMk9MZ4/X+sT5nGkvgaflhBt7yKZ9u5Okc6sw3JIJY32WpLkBLQkfvwq
-        veJ+EocwKe9629U7jajyhnS2TVTWtAwcy04hO0F5pH2iT5csY5PpwF4=
-        -----END CERTIFICATE-----
-        </cert>
-        <key>
-        -----BEGIN PRIVATE KEY-----
-        MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0vXbHpQPUFWdO
-        CZI1AvLjKL6H0Bd4WVQwKpU3Iel5/kWnwOqMJgxLMHEAWuLj9ldqOxK4Z7AZPTDu
-        zuitXIgotYb/5Ut9S/WY4Yopd1s4TTnLBHQFV2lfI3GKmDFBFbe2MNK3WvvfrDE3
-        c93qQRU7OfV9QA1uMrIPcbrLARK3UM8N99ZBx/nMgrnJiZrnY93xGOblaxofisY6
-        3Pg5cEke5ETo/6SYZIHGPI3XuH3CAQUBpxc8cuWYWhTHNjE+rcwj4l0tXG4dqmoZ
-        35XUAc1haPoyiGZN1vC+1BNgdzh6D7u4HQhGNZJ5UFVCKxoEokueiOAqkdG8dOsh
-        T/moyrC5AgMBAAECggEAdD4etMx2p+KULGaPeDTLTjoYQHUfgzHAqbHZgjn3VZSp
-        6/hxYW3fHkSriNTrdD4tfo87vQpDAhiO7ih5EXafw77scoxgftdpv8fe+khfjNhu
-        QRo+HGlZxeyfy8mSdA+pti20eGS19edjSAznPxBYvVzLfKDDgopsZu54erPX+7mR
-        2rLAEGb9iKt/vCZ6HmTz/wUbbzzD5kujtnHZZikkahFy7/kwxqo2y3xVlv28uKWj
-        MVnZ3qvD2RCMqf3FZ2ObN48x2HbtuQNB0MCsM2WlBVzta4817OeX8aPyvvE5wXkU
-        UFkgMcVuNJXb2EFbb9Nc3UwNZU3sGsR+60EB7jtLAQKBgQDnzWqSmkg2Zt9aSxGu
-        yX3M9s48z8eceDH7Kt+UVv9gdLYFIdMO3oO2wiPaiuf87l/y7fIhcXnMeEmk6WF0
-        E7+wRdWfhHUqDLpiP08FIuzqEoN7/037sze1+47/gCVuQkWu7Qi3Z1etxCVjyD6I
-        ILzB06DYn0pPgEhDS+DTbiataQKBgQDHm3s1hS1YevluxvYFCY7V7ku36wBJqF64
-        j9pPcN/kso0DwCcBOo7y/nD0Y2Zmbb/T+ZvLzBSlBK6njsNPwHRnSBdlwNpNxaTc
-        A80WoApH7bhTSA5+45F2NAH2bSD3bNe6mO1q6JMXe4FOdinRQSIDsmNReaVZPx9e
-        W4OlfJRu0QKBgGA3WKw/lAfYzY8KJ+3YPvqL23FMgbuF/KEX27QUJG6iI0egEZ5T
-        aHK8xOsay06ml3cbo2yUUI05xL/KC6SF6gQ+CHztG0D4BYlwY9lq9NH4G1Gl2HXI
-        nzBPmbyeMWtB4PDJ/Ns77x32k9qGLMaOaCtAL7ya6dp0Egq0/T5ls3I5AoGBALIl
-        r0ouCTGN166pvgry49tFKakFASW8MoWwRdxe1kRrovV0+prbI5f1xOQpDsxeKTXL
-        8eNqygYZbrO289Pq5TkEm3VCMNP2kNOYRONrhKF7peYWSnGvMzT258WC0khhiQxN
-        zp964US1Asv/JAVRh0UbYg7mbc+AScPSE2WQEX3xAoGBAMs+TX/LjdwPaY54WfI+
-        rbUyOPjYnvx+GHmTwEYtrqxEI9Kq/qA0c9ng+zIg8H68YmHPlLZQkSleTQqBDmKk
-        ieXL2AfrHx5uyoXATjPMCLxtr96i1n+kMzDBwXTEnoYPqlVhfKacp+1foTI8O69j
-        mltqeUlwWTtmWxIdrc6Q9sYB
-        -----END PRIVATE KEY-----
-        </key>
-        <tls-crypt>
-        -----BEGIN OpenVPN Static key V1-----
-        703c533c83970de6c0f90ad767201b7c
-        44dc258852168e12a7399963501be45e
-        dcb6d4133b186e7f7155d18a1d78251b
-        a8dc560d086e91cf1c9e8a9838e8dec6
-        131b28c16e7266f99ef2d54db9126bf4
-        8d75e59fd8a03768c2199bf5724eaeec
-        891d3a6e7ae998edb4406449946cf437
-        baa9c969aecff22c7b56b7302c4ea4bf
-        c7531836a35a21ed2676bc3947b6448e
-        7c6a93ff9d6a68aa7b0a7df02c86b0b3
-        a9527cfb28dbc1e61a982c427ad28193
-        ecc91fb49dc79a790b291fb55c9125eb
-        36d46b091b19e118ad379b5ba6c4a8e7
-        8dfa1f4a27713e454a0904d81a76d58e
-        e09ac62835735d7191fed2c7738bb38c
-        cef058530340a9010e07777b5dd8734f
-        -----END OpenVPN Static key V1-----
-        </tls-crypt>
-        "},
+      {"id":0,"file":"client
+dev tun
+proto tcp
+remote 34.125.86.127 80
+resolv-retry infinite
+nobind
+persist-key
+persist-tun
+remote-cert-tls server
+auth SHA512
+cipher AES-256-CBC
+ignore-unknown-option block-outside-dns
+block-outside-dns
+verb 3
+<ca>
+-----BEGIN CERTIFICATE-----
+MIIDQjCCAiqgAwIBAgIUd0QKP3nny89B/ANGxPoAluwT/bQwDQYJKoZIhvcNAQEL
+BQAwEzERMA8GA1UEAwwIQ2hhbmdlTWUwHhcNMjExMjE3MTQ1NDI5WhcNMzExMjE1
+MTQ1NDI5WjATMREwDwYDVQQDDAhDaGFuZ2VNZTCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAPX7fIw6PVdF3s7riy0IbEiPLm9iLImsUSeKGXBtTQmVz0ZI
+v+uFuaTCbC08C3bebfCf5SxmZdfK6Hq/3nbV9cBDzZQCbOm3BX1pj25c2jFmCuNT
+3z1tjT3qS/kIenmv53QIA12oywHqLvcuKXUtiD3UDdydYrukAv8ajrmytoucDbLL
+zcYUIAJug0cmXBdK3gF6kUoJN3bi+ItuQREnq5GIdEl2Y5sj4mEx6iuFckebCgT0
+H3bX3rzPFlHzD75ztcm3S/e250z4itfA3BxHKKZZrlxcngYM0g6bDDAWBxFcWgvR
+gFcO4Xkf/FcBY9DPpSmTRLISXmv60jRO/2z/4wcCAwEAAaOBjTCBijAdBgNVHQ4E
+FgQU/DadOOoKAm+z+3RUsrjHn0eWgmgwTgYDVR0jBEcwRYAU/DadOOoKAm+z+3RU
+srjHn0eWgmihF6QVMBMxETAPBgNVBAMMCENoYW5nZU1lghR3RAo/eefLz0H8A0bE
++gCW7BP9tDAMBgNVHRMEBTADAQH/MAsGA1UdDwQEAwIBBjANBgkqhkiG9w0BAQsF
+AAOCAQEAlM8exAz8/sTNukXcYSjJzbqD8TI1SDUDxoRaP30CYu5hO7n2i0Q8mN8C
+LPK6S7sdbHxfgpUcTtWRI5EEuWZTtqKPngqbXRR4Kv5XR5QGTXzf5TilHzYKByH/
+R2wILaPDuvt2Bj5pTc0rOeK0mM5T6agK6xtzhZ6AWsGB1YF3FAfRjoZm11rlTCDO
+IG7xjHHWUYre4odDieHiHzTAErHHgslZc0+/gjSSNsEmtI7/15FNeq614Pz+MGEG
+rsAggpQ1nmQgBgUZ/6YoiCB1+sg9nF8oNW1nMf0N8fFWsfPRRq60yP4jydqJJmLI
+A+GC2VfPmLG/cCSGMkrDJ0+jJQUHyw==
+-----END CERTIFICATE-----
+</ca>
+<cert>
+-----BEGIN CERTIFICATE-----
+MIIDVTCCAj2gAwIBAgIRAJhiEdYnEfWWpMOeYtVUan8wDQYJKoZIhvcNAQELBQAw
+EzERMA8GA1UEAwwIQ2hhbmdlTWUwHhcNMjExMjE3MTQ1NDI5WhcNMzExMjE1MTQ1
+NDI5WjAXMRUwEwYDVQQDDAxzYW1wbGVjbGllbnQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQC0vXbHpQPUFWdOCZI1AvLjKL6H0Bd4WVQwKpU3Iel5/kWn
+wOqMJgxLMHEAWuLj9ldqOxK4Z7AZPTDuzuitXIgotYb/5Ut9S/WY4Yopd1s4TTnL
+BHQFV2lfI3GKmDFBFbe2MNK3WvvfrDE3c93qQRU7OfV9QA1uMrIPcbrLARK3UM8N
+99ZBx/nMgrnJiZrnY93xGOblaxofisY63Pg5cEke5ETo/6SYZIHGPI3XuH3CAQUB
+pxc8cuWYWhTHNjE+rcwj4l0tXG4dqmoZ35XUAc1haPoyiGZN1vC+1BNgdzh6D7u4
+HQhGNZJ5UFVCKxoEokueiOAqkdG8dOshT/moyrC5AgMBAAGjgZ8wgZwwCQYDVR0T
+BAIwADAdBgNVHQ4EFgQUJfIygFseFsQnGcpW6SQaQSfF/IYwTgYDVR0jBEcwRYAU
+/DadOOoKAm+z+3RUsrjHn0eWgmihF6QVMBMxETAPBgNVBAMMCENoYW5nZU1lghR3
+RAo/eefLz0H8A0bE+gCW7BP9tDATBgNVHSUEDDAKBggrBgEFBQcDAjALBgNVHQ8E
+BAMCB4AwDQYJKoZIhvcNAQELBQADggEBADjQyexwn9pV4OsomQWO/lxJFinwyXQi
+FnahjvTABMhjhXrpO4GcWaofdlyAjEcHLnPZCN1KW3tPibup4kjoF2KHaKZyQftT
+KWo/Ko2RXZzuBjxeWOpzsKIxsbyMnTLwOoRKdxb9+v0RxUb1MSl2a0Ccnqy0POBS
+TfmiQDoYGvxTYyN33nQ9Mv5/wiwchKaCsSpiPyfB1hpeczggyUGIu+QEF9FQQmUZ
+MZ77MEMxjMk9MZ4/X+sT5nGkvgaflhBt7yKZ9u5Okc6sw3JIJY32WpLkBLQkfvwq
+veJ+EocwKe9629U7jajyhnS2TVTWtAwcy04hO0F5pH2iT5csY5PpwF4=
+-----END CERTIFICATE-----
+</cert>
+<key>
+-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0vXbHpQPUFWdO
+CZI1AvLjKL6H0Bd4WVQwKpU3Iel5/kWnwOqMJgxLMHEAWuLj9ldqOxK4Z7AZPTDu
+zuitXIgotYb/5Ut9S/WY4Yopd1s4TTnLBHQFV2lfI3GKmDFBFbe2MNK3WvvfrDE3
+c93qQRU7OfV9QA1uMrIPcbrLARK3UM8N99ZBx/nMgrnJiZrnY93xGOblaxofisY6
+3Pg5cEke5ETo/6SYZIHGPI3XuH3CAQUBpxc8cuWYWhTHNjE+rcwj4l0tXG4dqmoZ
+35XUAc1haPoyiGZN1vC+1BNgdzh6D7u4HQhGNZJ5UFVCKxoEokueiOAqkdG8dOsh
+T/moyrC5AgMBAAECggEAdD4etMx2p+KULGaPeDTLTjoYQHUfgzHAqbHZgjn3VZSp
+6/hxYW3fHkSriNTrdD4tfo87vQpDAhiO7ih5EXafw77scoxgftdpv8fe+khfjNhu
+QRo+HGlZxeyfy8mSdA+pti20eGS19edjSAznPxBYvVzLfKDDgopsZu54erPX+7mR
+2rLAEGb9iKt/vCZ6HmTz/wUbbzzD5kujtnHZZikkahFy7/kwxqo2y3xVlv28uKWj
+MVnZ3qvD2RCMqf3FZ2ObN48x2HbtuQNB0MCsM2WlBVzta4817OeX8aPyvvE5wXkU
+UFkgMcVuNJXb2EFbb9Nc3UwNZU3sGsR+60EB7jtLAQKBgQDnzWqSmkg2Zt9aSxGu
+yX3M9s48z8eceDH7Kt+UVv9gdLYFIdMO3oO2wiPaiuf87l/y7fIhcXnMeEmk6WF0
+E7+wRdWfhHUqDLpiP08FIuzqEoN7/037sze1+47/gCVuQkWu7Qi3Z1etxCVjyD6I
+ILzB06DYn0pPgEhDS+DTbiataQKBgQDHm3s1hS1YevluxvYFCY7V7ku36wBJqF64
+j9pPcN/kso0DwCcBOo7y/nD0Y2Zmbb/T+ZvLzBSlBK6njsNPwHRnSBdlwNpNxaTc
+A80WoApH7bhTSA5+45F2NAH2bSD3bNe6mO1q6JMXe4FOdinRQSIDsmNReaVZPx9e
+W4OlfJRu0QKBgGA3WKw/lAfYzY8KJ+3YPvqL23FMgbuF/KEX27QUJG6iI0egEZ5T
+aHK8xOsay06ml3cbo2yUUI05xL/KC6SF6gQ+CHztG0D4BYlwY9lq9NH4G1Gl2HXI
+nzBPmbyeMWtB4PDJ/Ns77x32k9qGLMaOaCtAL7ya6dp0Egq0/T5ls3I5AoGBALIl
+r0ouCTGN166pvgry49tFKakFASW8MoWwRdxe1kRrovV0+prbI5f1xOQpDsxeKTXL
+8eNqygYZbrO289Pq5TkEm3VCMNP2kNOYRONrhKF7peYWSnGvMzT258WC0khhiQxN
+zp964US1Asv/JAVRh0UbYg7mbc+AScPSE2WQEX3xAoGBAMs+TX/LjdwPaY54WfI+
+rbUyOPjYnvx+GHmTwEYtrqxEI9Kq/qA0c9ng+zIg8H68YmHPlLZQkSleTQqBDmKk
+ieXL2AfrHx5uyoXATjPMCLxtr96i1n+kMzDBwXTEnoYPqlVhfKacp+1foTI8O69j
+mltqeUlwWTtmWxIdrc6Q9sYB
+-----END PRIVATE KEY-----
+</key>
+<tls-crypt>
+-----BEGIN OpenVPN Static key V1-----
+703c533c83970de6c0f90ad767201b7c
+44dc258852168e12a7399963501be45e
+dcb6d4133b186e7f7155d18a1d78251b
+a8dc560d086e91cf1c9e8a9838e8dec6
+131b28c16e7266f99ef2d54db9126bf4
+8d75e59fd8a03768c2199bf5724eaeec
+891d3a6e7ae998edb4406449946cf437
+baa9c969aecff22c7b56b7302c4ea4bf
+c7531836a35a21ed2676bc3947b6448e
+7c6a93ff9d6a68aa7b0a7df02c86b0b3
+a9527cfb28dbc1e61a982c427ad28193
+ecc91fb49dc79a790b291fb55c9125eb
+36d46b091b19e118ad379b5ba6c4a8e7
+8dfa1f4a27713e454a0904d81a76d58e
+e09ac62835735d7191fed2c7738bb38c
+cef058530340a9010e07777b5dd8734f
+-----END OpenVPN Static key V1-----
+</tls-crypt>
+"},
       {"id":1,"file":"client
 dev tun
 proto tcp
