@@ -3,8 +3,8 @@
     "update":[{
       "version":"2.8.1600",
       "title":"This app is a vpn",
-      "description":"The app contains ads that will help us obtain and mantain servers",
-      "size":"3.5MB"
+      "description":"The app contains ads from which we generate a small revenue to enable us obtain and mantain fast private and reliable servers ",
+      "size":"12MB"
     }],
     "blocked":[
       {"id":0, "app":"com.android.game"},
@@ -16,10 +16,10 @@
       {"id":6, "app":"com.get.client"}
     ],
     "free":[
-      {"id":0, "file":0, "city":"Las Vegas TCP 80","country":"United States","image":"USA","ip":"34.125.86.127","active":"true","signal":"a"},
-        {"id":1, "file":1, "city":"Los Angeles TCP 443","country":"United States","image":"USA","ip":"35.236.70.231","active":"true","signal":"a"},
-        {"id":2, "file":2, "city":"London UDP 443","country":"United Kingdom","image":"UK","ip":"35.234.153.166","active":"true","signal":"a"},
-        {"id":3, "file":3, "city":"Sydney UDP 80","country":"Australia","image":"UK","ip":"35.189.27.37","active":"true","signal":"a"},
-        {"id":4, "file":4, "city":"Frankfurt TCP 80","country":"Germany","image":"UK","ip":"34.159.159.227","active":"true","signal":"a"}
+      {"id":0, "file":0, "city":"Las Vegas TCP 80","country":"United States","image":"unitedstates","ip":"34.125.86.127","active":"true","signal":"a"},
+        {"id":1, "file":1, "city":"Los Angeles TCP 443","country":"United States","image":"unitedstates","ip":"35.236.70.231","active":"true","signal":"a"},
+        {"id":2, "file":2, "city":"London UDP 443","country":"United Kingdom","image":"unitedkingdom","ip":"35.234.153.166","active":"true","signal":"a"},
+        {"id":3, "file":3, "city":"Sydney UDP 80","country":"Australia","image":"australia","ip":"35.189.27.37","active":"true","signal":"a"},
+        {"id":4, "file":4, "city":"Frankfurt TCP 80","country":"Germany","image":"germany","ip":"34.159.159.227","active":"true","signal":"a"}
     ]
   }
