@@ -20,6 +20,7 @@
         {"id":1, "file":1, "city":"Los Angeles TCP 443","country":"United States","image":"unitedstates","ip":"35.236.70.231","active":"true","signal":"a"},
         {"id":2, "file":2, "city":"London UDP 443","country":"United Kingdom","image":"unitedkingdom","ip":"35.234.153.166","active":"true","signal":"a"},
         {"id":3, "file":3, "city":"Sydney UDP 80","country":"Australia","image":"australia","ip":"35.189.27.37","active":"true","signal":"a"},
-        {"id":4, "file":4, "city":"Frankfurt TCP 80","country":"Germany","image":"germany","ip":"34.159.159.227","active":"true","signal":"a"}
+        {"id":4, "file":4, "city":"Frankfurt TCP 80","country":"Germany","image":"germany","ip":"34.159.159.227","active":"true","signal":"a"},
+        {"id":5, "file":5, "city":"Toronto UDP 80","country":"United States","image":"United States","ip":"172.105.97.176","active":"true","signal":"a"}
     ]
   }
