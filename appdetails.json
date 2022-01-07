@@ -23,6 +23,7 @@
         {"id":4, "file":4, "city":"Frankfurt TCP 80","country":"Germany","image":"germany","ip":"34.159.159.227","active":"true","signal":"a"},
         {"id":5, "file":5, "city":"Toronto UDP 80","country":"United States","image":"unitedstates","ip":"172.105.97.176","active":"true","signal":"a"},
         {"id":6, "file":6, "city":"Silicon Valley UDP 8443","country":"United States","image":"unitedstates","ip":"47.254.121.51","active":"true","signal":"b"},
-        {"id":7, "file":7, "city":"Frankfurt TCP 412","country":"Germany","image":"germany","ip":"194.195.243.250","active":"true","signal":"b"}
+        {"id":7, "file":7, "city":"Frankfurt TCP 412","country":"Germany","image":"germany","ip":"194.195.243.250","active":"true","signal":"b"},
+        {"id":8, "file":8, "city":"Sydney UDP 53","country":"Australia","image":"australia","ip":"172.105.255.195","active":"true","signal":"a"}
     ]
   }
