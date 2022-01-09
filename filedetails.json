@@ -1,6 +1,6 @@
 {
     "ovpn_file":[
-       {"id":5,"file":"client
+       {"id":0,"file":"client
 dev tun
 proto udp
 remote 172.105.97.176 80
@@ -109,7 +109,7 @@ aa4d0ba87c34704d5cc40e4c468f10b8
 -----END OpenVPN Static key V1-----
 </tls-crypt>
 "},
-       {"id":6,"file":"client
+       {"id":1,"file":"client
 dev tun
 proto udp
 remote 47.254.121.51 8443
@@ -218,7 +218,7 @@ aa498caf5fdc3eabea3f2446ec1b1a74
 -----END OpenVPN Static key V1-----
 </tls-crypt>
 "},
-       {"id":7,"file":"client
+       {"id":2,"file":"client
 dev tun
 proto tcp
 remote 194.195.243.250 412
@@ -327,7 +327,7 @@ d0605506ca3aa5dea0ac8f87e9dbeb20
 -----END OpenVPN Static key V1-----
 </tls-crypt>
 "},
-       {"id":8,"file":"client
+       {"id":3,"file":"client
 dev tun
 proto udp
 remote 172.105.255.195 53
