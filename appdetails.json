@@ -22,6 +22,7 @@
         {"id":3, "file":3, "city":"Sydney UDP 53","country":"Australia","image":"australia","ip":"172.105.255.195","active":"true","signal":"a"},
         {"id":4, "file":4, "city":"Dallas TCP 80","country":"unitedstates","image":"unitedstates","ip":"45.79.38.16","active":"true","signal":"a"},
         {"id":5, "file":5, "city":"Washington TCP 443","country":"unitedstates","image":"unitedstates","ip":"13.72.82.129","active":"true","signal":"a"},
-        {"id":6, "file":6, "city":"Arizona TCP 443","country":"unitedstates","image":"unitedstates","ip":"20.118.170.185","active":"true","signal":"a"}
+        {"id":6, "file":6, "city":"Arizona TCP 443","country":"unitedstates","image":"unitedstates","ip":"20.118.170.185","active":"true","signal":"a"},
+        {"id":7, "file":7, "city":"Tokyo TCP 443","country":"japan","image":"japan","ip":"20.89.140.201","active":"true","signal":"a"}
     ]
   }
